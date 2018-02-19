@@ -1,0 +1,168 @@
+.animate{
+    animation: 1s linear;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.forwards{
+    animation-fill-mode: forwards !important;
+}
+.movescale{
+    animation-name: movescale;
+}
+@keyframes movescale {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+.moveright{
+    animation: moveright 5s linear infinite;
+}
+@keyframes moveright {
+    0%{transform: translateX(-4rem)}
+    50%{transform: translateX(0rem)}
+    100%{transform: translateX(6rem)}
+}
+.moveleft{
+    animation-name: moveleft;
+}
+@keyframes moveleft {
+    0%{transform: translateX(-6rem)}
+    100%{transform: translateX(0rem)}
+}
+.movexingxing{
+    animation-name: movexingxing;
+}
+@keyframes movexingxing {
+    0%{transform: translateX(6rem)}
+    75%{transform:skew(-30deg)}
+    100%{transform: translateX(0rem)}
+}
+.movexian{
+    animation-name: movexian;
+}
+@keyframes movexian {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.movetext{
+    animation-name: movetext;
+}
+@keyframes movetext {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+.movetext2{
+    animation-name: movetext2;
+    animation-delay: 1s;
+}
+@keyframes movetext2 {
+    0%{transform: translateY(-4rem)rotateX(90deg);}
+    80%{transform: scale(1.2)}
+    100%{transform: translateY(0rem) rotateX(0deg)scale(1)}
+}
+.top1{
+    animation-name: top;
+    animation-delay:1s;
+}
+.left{
+    animation-name: left;
+    animation-delay:2s;
+}
+
+.scale{
+    animation-name: scale;
+    animation-delay:3s;
+}
+@keyframes top {
+    0%{transform: translateY(-4rem)}
+    100%{transform: translateY(0rem)}
+}
+@keyframes left {
+    0%{transform: translateX(-4rem)}
+    100%{transform: translateX(0rem)}
+}
+@keyframes scale {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+@keyframes zhuan {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(360deg)}
+}
+.zhuan{
+    animation-name: zhuan;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+
+}
+@keyframes suofang {
+    0%{transform:scale(0.1)}
+    100%{transform:scale(1)}
+}
+.suofang{
+    animation-name: suofang;
+    transform-origin: 5% 50%;
+}
+.move1{
+    animation-name: move1;
+}
+@keyframes move1 {
+    0%{transform: translateX(-4rem);opacity: 0}
+    100%{transform: translateX(0);opacity: 1}
+}
+.move2{
+    animation-name: move2;
+    transform-origin: left;
+}
+@keyframes move2 {
+    0%{transform: rotate(120deg)}
+    100%{transform: rotate(0deg);opacity: 1}
+}
+.move3{
+    animation-name: move3;
+}
+@keyframes move3 {
+    0%{transform: rotate(-360deg) translateX(-4rem)}
+    100%{transform: rotate(0deg)translateX(0);opacity: 1}
+}
+.pbottom{
+    animation-name: pbottom;
+}
+.pleft{
+    animation-name: pleft;
+}
+.ptop{
+    animation-name: ptop;
+}
+@keyframes pbottom {
+    0%{transform: translateY(3rem)}
+    100%{transform: translateY(0rem)}
+}
+@keyframes pleft {
+    0%{transform: translateX(-3rem)}
+    100%{transform: translateX(0rem)}
+}
+@keyframes ptop {
+    0%{transform: translateY(-3rem)}
+    100%{transform: translateY(0rem)}
+}
+.prigth{
+    animation-name: pright;
+}
+@keyframes pright {
+    0%{transform: translateX(4rem)}
+    100%{transform: translateY(0rem)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

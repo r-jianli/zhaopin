@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    touch-action: none;
+}
+.pageup{
+    transform: translateY(-100%);
+}
+.pagedown{
+    transform: translateY(100%);
+}
+.hide{
+    display: none !important;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: transform 0.5s linear;
+}
+.music{
+    background-image: url("../images/music.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-shadow: none!important;
+    position: absolute;
+    top: 0.7rem;
+    right: 3%;
+    width: 0.8rem;
+    height: 0.8rem;
+    z-index: 999;
+}
+.top{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin-left: -4%;
+    z-index: 999;
+    width: 8%;
+}
+.top img{
+    width: 100%;
+}
+.header{
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.26rem;
+    color: white;
+    z-index: 999;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.page1{
+    z-index: 99;
+    background: url("../images/page1bg.jpg");
+    background-size: 100% 150%;
+}
+.page1 .logo{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.5rem;
+    color: inherit;
+}
+.page1 .logo p{
+    color: rgb(103, 103, 103);
+    margin-top: 0.2rem;
+}
+.page1 .logo img{
+    display: block;
+    margin: 0 auto;
+}
+.page1 .bottom{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: darkgray;
+}
+.page2{
+    background:#f3f3f3;
+}
+.page2 .pic1{
+    margin-top:1rem;
+    margin-left: 5%;
+    margin-bottom: 0.5rem;
+}
+.page2 p{
+    font-size: 0.27rem;
+    width: 83%;
+    line-height: 0.5rem;
+    margin: 0 auto;
+    color: grey;
+}
+.page2 .pic2{
+    margin-left: 3.3rem;
+}
+.page4{
+    background:#f3f3f3  url("../images/page4bg.png")no-repeat center bottom;
+    background-size: 120%;
+}
+.page4 .pic1{
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: 5%;
+}
+.page4 .pic2 {
+    display: block;
+    margin: 2rem auto 0;
+}
+.page4 .text{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.2rem 0.25rem;
+    font-size: 0.29rem;
+    background: #806116;
+    color: lightgray;
+    margin-top: 0.3rem;
+    line-height: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.page5{
+    background:#f3f3f3  url("../images/page4bg.png")no-repeat center bottom;
+    background-size: 120%;
+}
+.page5 .pic1{
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: 5%;
+}
+.page5 .pic{
+    margin: 0.3rem 0;
+    width: 100%;
+}
+.page5 .pic img:nth-child(1){
+    transform: rotateZ(340deg);
+    margin-left: 0.5rem;
+}
+.page5 .pic img:nth-child(2){
+    margin-left: 0.5rem;
+}
+.page5 .pic img:nth-child(3){
+    display: block;
+    margin: 0.3rem auto;
+}
+.page5 .pic img:nth-child(4){
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+}
+.page5 .pic img:nth-child(5){
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    transform: rotateZ(38deg);
+}
+.page6{
+    background:#f3f3f3;
+}
+.page6 .top1{
+    width: 100%;
+    height: 3.3rem;
+    background: #abb1bd;
+}
+.page6 .top1 img{
+    display: block;
+    margin: 0.3rem auto 0;
+}
+.page6 #text{
+   padding: 0 0.2rem;
+    box-sizing: border-box;
+    line-height: 0.55rem;
+}
+.page6 #text span{
+    line-height: 0.3rem;
+}
+.page7{
+    background: #f3f3f3;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+}
+.page7 h2{
+    margin-top: 2rem;
+    font-weight: normal;
+    font-size: 0.6rem;
+    color: rgb(103, 103, 103);
+}
+.page7 .fangxiang{
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+.page7 .left1{
+    float: left;
+    margin-left: -0.5rem;
+}
+.page7 .right{
+    float: left;
+    font-size: 0.25rem;
+    margin-left: -0.3rem;
+    color: rgb(103, 103, 103);
+    padding-top: 0.48rem;
+}
+.page7 .right p{
+    line-height: 0.75rem;
+    font-weight: bold;
+}
+.page7>img{
+    display: block;
+    margin-left: 0.3rem;
+}
+.page8{
+    background: #e0e0e0;
+    padding-left: 1.6rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.page8>p{
+    color: rgb(51, 51, 51);
+    font-size: 0.6rem;
+    margin-top: 3rem;
+}
+.page8 .box{
+    font-size: 0.3rem;
+}
+.page8 .box span{
+    padding-left: 0.1rem;
+    color: rgb(247, 149, 30);
+    width: 3rem ;
+    margin: 0.2rem 0;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+}
+.page8>img:nth-of-type(1){
+    position: absolute;
+    top: 45px;
+    left: -1px;
+}
+.page8>img:nth-of-type(2){
+    position: absolute;
+    top: 219px;
+    left: 0px;
+}
+.page8>img:nth-of-type(3){
+    position: absolute;
+    top: 339px;
+    left: 0px;
+}
+.page8>img:nth-of-type(4){
+    position: absolute;
+    top: 396px;
+    left: 95px;
+}
+.page8>img:nth-of-type(5){
+    position: absolute;
+    top: 23px;
+    left: 147px;
+}
+.page9{
+    background: #e0e0e0;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.page9>p{
+    font-weight: bold;
+    color: #23a3d3;
+    font-size: 0.5rem !important;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.page9 p{
+    color: #23a3d3;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    width: 284px;
+    height: 41px;
+    margin: 0.5rem auto;
+}
+.page9 input{
+    width: 100%;
+    height: 100%;
+}
+.page10{
+    background: url("../images/page10bg.gif");
+    background-size: 100% 100%;
+}
+.page10 #top{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: white;
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid darkgray;
+}
+.page10 .lianxi{
+    width: 90%;
+    margin: 3rem auto 0;
+}
+.page10 .lianxi div{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0.01rem;
+    float: left;
+    font-size: 0.2rem;
+    color: white;
+    height: 1rem;
+    line-height: 1rem;
+}
+.page10 .lianxi div:nth-child(2n+1){
+    width: 19%;
+}
+.page10 .lianxi div:nth-child(2n){
+    width: 80%;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+.page11{
+    background: #140d1f url("../images/page11bg.jpg")center 0.1rem no-repeat;
+}
+.page11 p{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.34rem;
+    color: white;
+    margin-top: 2.5rem;
+}
+.page11 img{
+    width: 60%;
+    display: block;
+    margin: 1rem auto;
+}
+
+
